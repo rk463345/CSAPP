@@ -33,12 +33,6 @@ def phase_6(ints):
     node5.set_next(node6)
     node6.set_next(nodeN)
     a = []   
-    """# checks that the numbers are unique
-    if len(ints) != len(set(ints)):
-        return False
-    # checks that numbers are less than 6 
-    if max(ints)-1 > 5:
-        return False"""
     # creates the node array
     for i in range(6):
         n = node1
